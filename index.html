@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Experiment</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+
+            body{
+                background-image: url('images/fondo.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 160%;
+
+                
+
+
+
+            }
+        </style>
+        
+    </head>
+<body >
+<section class="home">
+<div class="in flex"></div>
+
+<h1>Contenidos AR</h1>
+<h2>Logotipo Coomeva</h2>
+
+<p>Para visualizar este contenido en AR
+    debes hacer “tap” encima del objeto 3D
+    y aceptar los permisos para usar la cámara.
+    Después solo tendrás que buscar una
+    superfície plana para visualizar el contenido.</p>
+
+    <model-viewer bounds="tight" src="Coomeva Logo.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
+    
+
+
+</section>
+
+</body>
+</html>

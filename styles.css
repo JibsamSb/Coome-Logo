@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Goldplay";
+    src: url("Fonts/Goldplay Black.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "GoldplaySemibold";
+    src: url("Fonts/Goldplay SemiBold.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "GoldplayM";
+    src: url("Fonts/Goldplay Medium.otf") format('truetype');
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: "Goldplay";
+
+  } 
+
+h2 {
+
+    color: white;
+    text-align: center;
+    font-size: 58px;
+    margin-top: 10px;
+    font-family: "GoldplaySemibold";
+
+
+
+  }
+
+  p {
+
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: "GoldplayM";
+
+
+
+  }
